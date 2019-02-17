@@ -1,2 +1,27 @@
-# dev-logger
-Only log to the console when in development mode. This helps by saving time when of mopping up all the console.log lines of code in your projet
+# Dev Logger
+
+===========
+
+## Installation
+
+`yarn add @kenshinman/number-formatter` or `npm install @kenshinman/number-formatter`
+
+## Usage
+
+```
+var devLogger = require('@kenshinman/dev-logger');
+
+devLogger("this output", "that output")
+
+//output
+//arg 1 => "this output"
+//arg 2 => "that output"
+```
+
+Simply way to make sure your `console.log` statements are only logged in `development` environment.
+
+Takes single or multiple parameters and they are logged in order of appearance.
+
+PS: My first NPM package too.
+
+### Suggestions are welcome
