@@ -1,0 +1,34 @@
+{
+  "name": "dev-logger",
+  "version": "0.1.0",
+  "description": "Only log to the console when in development mode",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenshinman/dev-logger.git"
+  },
+  "keywords": [
+    "development",
+    "console.log",
+    "javascript",
+    "logger",
+    "nodejs",
+    "log"
+  ],
+  "author": "Kehinde Orilogbon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenshinman/dev-logger/issues"
+  },
+  "homepage": "https://github.com/kenshinman/dev-logger#readme",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
