@@ -5,6 +5,8 @@
  *
  */
 
+// will add more functionalities
+
 const devLog = (...args) => {
   if (process.env.NODE_ENV === "development") {
     args.forEach((arg, i) => {
