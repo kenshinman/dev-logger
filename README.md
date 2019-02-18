@@ -1,7 +1,5 @@
 # Dev Logger
 
-===========
-
 ## Installation
 
 `yarn add dev-logger-simple` or `npm install dev-logger-simple`
@@ -9,7 +7,7 @@
 ## Usage
 
 ```
-var devLogger = require('@kenshinman/dev-logger');
+var devLogger = require('dev-logger-simple');
 
 devLogger("this output", "that output")
 

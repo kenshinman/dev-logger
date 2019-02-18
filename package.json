@@ -1,6 +1,6 @@
 {
   "name": "dev-logger-simple",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Only log to the console when in development mode",
   "main": "index.js",
   "scripts": {
