@@ -4,7 +4,7 @@
 
 ## Installation
 
-`yarn add @kenshinman/number-formatter` or `npm install @kenshinman/number-formatter`
+`yarn add dev-logger-simple` or `npm install dev-logger-simple`
 
 ## Usage
 
